@@ -258,6 +258,7 @@ class Singleton {
 2) getInstance() 메서드를 호출 할때, SingleInstanceHolder 내부 클래스의 static멤버를 가져와서 리턴하게 되는데, 이때 내부 클래스가 한번만 초기화 되면서 싱글톤 객체를 최초로
    생성및 리턴하게 된다.
 3) final로 지정함으로써 다시 값이 할당되지 않도록 방지
+4) 다시 말해 JVM에 책임을 떠넘기는 것
 
 ### 7. Enum 이용
 
